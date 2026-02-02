@@ -1,4 +1,4 @@
-
+//Añadiendo comentario
 const voiceSearch = document.querySelector(".voice-search");
 let microAceptado = false;
 
@@ -7,7 +7,7 @@ const voiceSearchModalOpen = ()=>{
 	voiceSearch.style.animation = "aparecer 0.5s forwards";
 	voiceRecognition();
 }
-
+//Añadiendo comentario
 
 const voiceSearchModalClose = () =>{
 	voiceSearch.style.animation = "desaparecer 0.25s forwards";
@@ -15,6 +15,7 @@ const voiceSearchModalClose = () =>{
 	    voiceSearch.style.display = "none";
 	},250)
 }
+//Añadiendo comentario
 
 const voiceRecognition = () =>{
 	if (microAceptado == false) {
